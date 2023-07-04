@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+
+
+/* Hedaer Settings */
+
+.header {
+    height: 89px;
+    width: 100%;
+    background-color: #C6FFFC;
+}
+
+.header-cont {
+    height: 62px;
+    width: 1499px;
+
+    display: flex;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-logo {
+    height: 62px;
+    width: 93px;
+
+    margin-right: 91px;
+    margin-top: 13px;
+}
+
+.header-comands p {
+    margin-right: 91px;
+    margin-top: 30px;
+
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+}
+
+.header-comands {
+    display: flex;
+}
+
+
+
+
+
+#dropdown {
+    visibility: hidden;
+    height: 253px;
+    width: 160px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 27px;
+    background-color: #C6FFFC;
+    display: flex;
+
+    position: relative;
+    z-index: 1;
+
+    left: -30px;
+}
+
+.drop-cont {
+    margin-top: 15px;
+    width: 325px;
+
+    margin-left: 26px;
+}
+
+.drop-cont p {
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+}
+
+.men:hover #dropdown {
+    visibility: visible;
+    transition-duration: 500ms;
+}
+
+.men {
+    padding-bottom: 110px;
+}
+
+#arrow {
+    position: relative;
+    left: -84px;
+    top: 35px;
+}
+
+
+.top-name-tetx {
+    text-align: center;
+
+    color: #000;
+    font-size: 48px;
+    font-weight: 600;
+
+    padding-top: 80px;
+    padding-bottom: 96px;
+}
+
+.map-content {
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 710px;
+}
+
+iframe {
+    height: 594px;
+    width: 710px;
+
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.top-map-text {
+    color: #000;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+
+    margin-bottom: 39px;
+}
+
+.under-map-cont {
+    height: 255px;
+    width: 578px;
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 38px;
+    margin-bottom: 36px;
+}
+
+.under-map-cont p {
+    font-size: 32px;
+    color: #000;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.soc-media {
+    height: 457px;
+    width: 100%;
+
+    border-top: 2px solid #4AF3EA;
+    border-bottom: 2px solid #4AF3EA;
+}
+
+.soc-media-cont {
+    width: 405px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-text-main {
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+
+    margin-top: 38px;
+    margin-bottom: 63px;
+}
+
+.telegramm {
+    display: flex;
+
+    color: #000;
+    font-size: 32px;
+    font-weight: 500;
+
+    margin-bottom: 38px;
+}
+
+.telegramm p {
+    margin-top: 6px;
+    margin-left: 39px;
+}
+
+.watsao {
+    display: flex;
+
+    color: #000;
+    font-size: 32px;
+    font-weight: 500;
+
+    margin-bottom: 38px;
+}
+
+.watsao p {
+    margin-top: 6px;
+    margin-left: 39px;
+}
+
+.wkontakte {
+    display: flex;
+
+    color: #000;
+    font-size: 32px;
+    font-weight: 500;
+
+    margin-bottom: 38px;
+}
+
+.wkontakte p {
+    margin-top: 6px;
+    margin-left: 39px;
+}
+
+.under-media {
+    width: 572px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+
+    margin-top: 52px;
+    margin-bottom: 525px;
+}
+
+.top-tetxp {
+    font-size: 40px;
+    color: #000;
+    font-weight: 600;
+}
+
+.under-med-text {
+    color: #000;
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 58px;
+}
+
+
+
+
+
+
+/* Footer settings */
+
+.footer {
+    height: 89px;
+    width: 100%;
+    background-color: #C6FFFC;
+}
+
+.footer-container {
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    width: 940px;
+    justify-content: space-between;
+    padding-top: 31px;
+}
+
+.footer-container p {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
